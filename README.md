@@ -40,5 +40,8 @@ The following languages has been tested and confirmed to be working as intended:
 * `julia`
 * `VimL`
 * `.ini`
+* `json`
+* `yaml`
+* `toml`
 
 ***Hope you enjoy <3***
