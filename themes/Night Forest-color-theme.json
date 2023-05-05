@@ -14,7 +14,7 @@
 		"gitDecoration.untrackedResourceForeground": "#C1D9F2",
 
 		// # CHROME
-		"selection.background": "#7f3f0099",
+		"selection.background": "#424242",
 
 		// Top bar
 		"titleBar.border": "#000000",
@@ -123,8 +123,18 @@
 		"list.highlightForeground": "#27D3CB",
 
 		// Minimap
-		"minimap.selectionHighlight": "#7f3f00",
+		"minimap.selectionHighlight": "#7a7a7a",
 		"minimapSlider.activeBackground": "#14665B8a",
+		"minimap.errorHighlight": "#FF695A",
+		"minimap.warningHighlight": "#FFE091",
+
+		// Gutter
+		"editorGutter.addedBackground": "#42BC7F",
+		"editorGutter.deletedBackground": "#FF695A",
+		"editorGutter.modifiedBackground": "#3E83D1",
+		"minimapGutter.addedBackground": "#42BC7F",
+		"minimapGutter.deletedBackground": "#FF695A",
+		"minimapGutter.modifiedBackground": "#3E83D1",
 
 		// # TEXT EDITOR
 		// General
@@ -137,12 +147,15 @@
 		"editorLineNumber.foreground": "#7b7b7b",
 		"editorLineNumber.activeForeground": "#27D3CB",
 
-		"editor.selectionBackground": "#7f3f0099",
-		"editor.selectionHighlightBackground": "#7f3f0099",
-		// "editor.selectionHighlightBorder": "#14665B",
+		"editor.selectionBackground": "#424242",
+		"editor.selectionHighlightBackground": "#ffe09162",
 
-		"editor.wordHighlightBackground": "#ffffff2c",
-		// "editor.wordHighlightBorder": "#7b7b7b",
+		"editor.hoverHighlightBackground": "#ffffff4c",
+		"editor.wordHighlightBackground": "#ffffff3c",
+		"editor.wordHighlightStrongBackground": "#3e83d1a9",
+
+		"editorBracketMatch.border": "#ff000000",
+		"editorBracketMatch.background": "#14665B",
 
 		"editor.findMatchBackground": "#FFE091b7",
 		"editor.findMatchHighlightBackground": "#FFE09154",
@@ -233,6 +246,7 @@
 				"markup.underline.link",
 				"string.regexp",
 				"string.url",
+				// "punctuation.separator.scope-resolution.cpp"
 			],
 			"settings": {
 				"foreground": "#27D3CB"
@@ -298,7 +312,7 @@
 				"markup.italic",
 				"punctuation.definition.block.tag",
 				"storage.modifier",
-				"storage.type"
+				"storage.type",
 			],
 			"settings": {
 				"foreground": "#cba0ff"
