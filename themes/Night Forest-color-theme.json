@@ -357,8 +357,12 @@
 				"keyword",
 				"markup.italic",
 				"punctuation.definition.block.tag",
+				"storage",
 				"storage.modifier",
 				"storage.type",
+
+				// Lang overrides
+
 			],
 			"settings": {
 				"foreground": "#cba0ff"

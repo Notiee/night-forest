@@ -37,5 +37,6 @@ The following languages has been tested and confirmed to be working as intended:
 * `html`
 * `Markdown`
 * `PowerShell`
+* `VimL`
 
 ***Hope you enjoy <3***
