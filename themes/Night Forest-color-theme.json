@@ -267,19 +267,52 @@
 			}
 		},
 		{
-			"name": "Variables, Accessors, seperators",
+			"name": "Variables",
 			"scope": [
 				"variable",
 				"meta.brace",
 				"meta.interpolation",
 				"meta.embedded.line",
-				"punctuation.accessor",
-				"punctuation.definition.block",
-				"punctuation.separator",
 				"support.type.property-name.css",
 			],
 			"settings": {
 				"foreground": "#EEEEEE"
+			}
+		},
+		{
+			"name": "Variable paremeters",
+			"scope": [
+				"variable.parameter",
+				"entity.other.attribute-name",
+				"keyword.operator.quantifier.regexp",
+				// "entity.name.variable.parameter.cs",
+
+				// Quickfixes for symbols getting operator colors
+				// "keyword.operator.namespace.rust",
+				// "keyword.operator.key-value.rust",
+				// "keyword.operator.access",
+				// "keyword.operator.type.annotation.ts",
+			],
+			"settings": {
+				"foreground": "#EEEEEE"
+			}
+		},
+		{
+			"name": "Accessors, seperators, terminators",
+			"scope": [
+				// "punctuation.accessor",
+				// "punctuation.definition.block",
+
+				// "punctuation.section.function.begin.python",
+
+				// "punctuation.dot",
+				// "punctuation.separator",
+
+				// "punctuation.terminator",
+				// "punctuation.semi.rust",
+			],
+			"settings": {
+				"foreground": "#27D3CB"
 			}
 		},
 		{
@@ -319,15 +352,13 @@
 			}
 		},
 		{
-			"name": "Numbers, Constants, variable params",
+			"name": "Numbers, Constants",
 			"scope": [
-				"constant",
-				"entity.other.attribute-name",
-				"keyword.operator.quantifier.regexp",
 				"markup.bold",
-				"support.constant",
-				"variable.other.constant",
-				"variable.parameter"
+				"constant",
+				// "support.constant",
+				// "variable.other.constant",
+
 			],
 			"settings": {
 				"foreground": "#E54286"
