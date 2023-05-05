@@ -14,7 +14,7 @@
 		"gitDecoration.untrackedResourceForeground": "#C1D9F2",
 
 		// # CHROME
-		"selection.background": "#14665B",
+		"selection.background": "#7f3f0099",
 
 		// Top bar
 		"titleBar.border": "#000000",
@@ -123,7 +123,7 @@
 		"list.highlightForeground": "#27D3CB",
 
 		// Minimap
-		"minimap.selectionHighlight": "#14665B8a",
+		"minimap.selectionHighlight": "#7f3f00",
 		"minimapSlider.activeBackground": "#14665B8a",
 
 		// # TEXT EDITOR
@@ -137,7 +137,8 @@
 		"editorLineNumber.foreground": "#7b7b7b",
 		"editorLineNumber.activeForeground": "#27D3CB",
 
-		"editor.selectionBackground": "#ffffff1c",
+		"editor.selectionBackground": "#7f3f0099",
+		"editor.selectionHighlightBackground": "#7f3f0099",
 		// "editor.selectionHighlightBorder": "#14665B",
 
 		"editor.wordHighlightBackground": "#ffffff2c",
