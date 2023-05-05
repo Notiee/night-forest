@@ -237,7 +237,9 @@
 				"support.type.property-name",
 				"variable.object.property",
 				"variable.other.enummember",
-				"string.interpolated.expression"
+				"string.interpolated.expression",
+
+				// Lang overrides
 			],
 			"settings": {
 				"foreground": "#FF6675"
@@ -254,7 +256,6 @@
 
 				// Lang overrides
 				"punctuation.separator.scope-resolution.cpp"
-
 			],
 			"settings": {
 				"foreground": "#27D3CB"
@@ -312,7 +313,6 @@
 				// "punctuation.accessor",
 				// "punctuation.definition.block",
 
-				// "punctuation.separator.scope-resolution.cpp"
 
 				// "punctuation.dot",
 				// "punctuation.separator",

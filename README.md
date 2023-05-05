@@ -22,17 +22,20 @@ The following languages has been tested and confirmed to be working as intended:
 * `Rust`
 * `Zig`
 * `Nim`
+* `go`
 * `Python`
 * `Ruby`
 * `crystal`
 * `lua`
 * `swift`
 * `dart`
+* `java`
 * `JavaScript`
 * `Typescript`
 * `php`
 * `css`
 * `html`
 * `Markdown`
+* `PowerShell`
 
 ***Hope you enjoy <3***
