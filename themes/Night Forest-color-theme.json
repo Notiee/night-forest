@@ -14,7 +14,7 @@
 		"gitDecoration.untrackedResourceForeground": "#C1D9F2",
 
 		// # CHROME
-		"selection.background": "#424242",
+		"selection.background": "#686868bb",
 
 		// Top bar
 		"titleBar.border": "#000000",
@@ -147,7 +147,7 @@
 		"editorLineNumber.foreground": "#7b7b7b",
 		"editorLineNumber.activeForeground": "#27D3CB",
 
-		"editor.selectionBackground": "#424242",
+		"editor.selectionBackground": "#686868bb",
 		"editor.selectionHighlightBackground": "#ffe09162",
 
 		"editor.hoverHighlightBackground": "#ffffff4c",
