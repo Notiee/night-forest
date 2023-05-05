@@ -6,7 +6,7 @@ Night forest aims to be a consitent theme that allows the programmer to immersiv
 
 It features a carefully designed palette so it's easy to read with your eyes with just enough colors to not feel monotonous.
 
-![image](/assets/screenshot.png)
+![image](https://github.com/Notiee/night-forest/blob/main/assets/screenshot.png?raw=true)
 
 I have tried to cover most panels and widgets, but in case anything is missing do let me know!~
 
