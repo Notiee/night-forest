@@ -1,0 +1,28 @@
+{
+  "name": "night-forest",
+  "displayName": "Night forest",
+  "description": "Pitch black theme with fresh green accents",
+  "version": "0.0.1",
+  "publisher": "nota",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#14665B",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Night Forest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Night Forest-color-theme.json"
+      }
+    ]
+  }
+}
