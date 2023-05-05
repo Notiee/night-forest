@@ -3,7 +3,7 @@
 	"colors": {
 		// # GENERAL
 		// "foreground": "#FFFFFF",
-		"errorForeground": "#EF3D2E",
+		"errorForeground": "#F04B3C",
 		"icon.foreground": "#7b7b7b",
 		"textLink.foreground": "#27D3CB",
 		"textLink.activeForeground": "#27D3CB",
@@ -42,8 +42,8 @@
 		"statusBar.noFolderBackground": "#14665B",
 		"statusBar.debuggingBackground": "#6b6497",
 		"statusBar.focusBorder": "#00000000",
-		"statusBarItem.errorBackground": "#EF3D2E",
-		"statusBarItem.warningBackground": "#FFE091",
+		"statusBarItem.errorBackground": "#F04B3C",
+		"statusBarItem.warningBackground": "#FFF890",
 		"statusBarItem.remoteBackground": "#3E83D1",
 		"statusBarItem.hoverBackground": "#14665B8a",
 		"statusBarItem.activeBackground": "#14665B8a",
@@ -65,9 +65,9 @@
 
 		// Extensions
 		"extensionIcon.preReleaseForeground": "#3E83D1",
-		"extensionIcon.starForeground": "#FFE091",
+		"extensionIcon.starForeground": "#FFF890",
 		"extensionIcon.verifiedForeground": "#14665B",
-		"extensionIcon.sponsorForeground": "#EF3D2E",
+		"extensionIcon.sponsorForeground": "#F04B3C",
 
 		// Badges
 		"badge.background": "#14665B",
@@ -94,8 +94,8 @@
 		"list.activeSelectionBackground": "#14665B8a",
 		"list.inactiveSelectionBackground": "#14665B8a",
 		"list.hoverBackground": "#14665b56",
-		"list.warningForeground": "#FFE091",
-		"list.errorForeground": "#EF3D2E",
+		"list.warningForeground": "#FFF890",
+		"list.errorForeground": "#F04B3C",
 		"tree.indentGuidesStroke": "#AAAAAA",
 
 		// Inputs, dropdowns etc
@@ -125,15 +125,15 @@
 		// Minimap
 		"minimap.selectionHighlight": "#7a7a7a",
 		"minimapSlider.activeBackground": "#14665B8a",
-		"minimap.errorHighlight": "#EF3D2E",
-		"minimap.warningHighlight": "#FFE091",
+		"minimap.errorHighlight": "#F04B3C",
+		"minimap.warningHighlight": "#FFF890",
 
 		// Gutter
 		"editorGutter.addedBackground": "#42BC7F",
-		"editorGutter.deletedBackground": "#EF3D2E",
+		"editorGutter.deletedBackground": "#F04B3C",
 		"editorGutter.modifiedBackground": "#3E83D1",
 		"minimapGutter.addedBackground": "#42BC7F",
-		"minimapGutter.deletedBackground": "#EF3D2E",
+		"minimapGutter.deletedBackground": "#F04B3C",
 		"minimapGutter.modifiedBackground": "#3E83D1",
 
 		// # TEXT EDITOR
@@ -148,7 +148,7 @@
 		"editorLineNumber.activeForeground": "#27D3CB",
 
 		"editor.selectionBackground": "#686868bb",
-		"editor.selectionHighlightBackground": "#ffe09162",
+		"editor.selectionHighlightBackground": "#FFF89062",
 
 		"editor.hoverHighlightBackground": "#ffffff4c",
 		"editor.wordHighlightBackground": "#ffffff3c",
@@ -157,15 +157,15 @@
 		"editorBracketMatch.border": "#ff000000",
 		"editorBracketMatch.background": "#14665B",
 
-		"editor.findMatchBackground": "#FFE091b7",
-		"editor.findMatchHighlightBackground": "#FFE09154",
+		"editor.findMatchBackground": "#FFF890b7",
+		"editor.findMatchHighlightBackground": "#FFF89054",
 
 		"editorIndentGuide.background": "#252525",
 		"editorIndentGuide.activeBackground": "#AAAAAA",
 
 		"editorInfo.foreground": "#3E83D1",
-		"editorError.foreground": "#EF3D2E",
-		"editorWarning.foreground": "#FFE091",
+		"editorError.foreground": "#F04B3C",
+		"editorWarning.foreground": "#FFF890",
 
 		// # SETTINGS
 		"settings.modifiedItemIndicator": "#2ba39d",
@@ -174,19 +174,19 @@
 		// # TERMINAL
 		"terminal.ansiBlack": "#000000",
 		"terminal.ansiWhite": "#EEEEEE",
-		"terminal.ansiRed": "#EF3D2E",
+		"terminal.ansiRed": "#F04B3C",
 		"terminal.ansiGreen": "#14665B",
 		"terminal.ansiBlue": "#3E83D1",
 		"terminal.ansiCyan": "#27D3CB",
 		"terminal.ansiMagenta": "#E54286",
-		"terminal.ansiYellow": "#FFE091",
+		"terminal.ansiYellow": "#FFF890",
 		"terminal.ansiBrightBlack": "#000000",
-		"terminal.ansiBrightRed": "#EF3D2E",
+		"terminal.ansiBrightRed": "#F04B3C",
 		"terminal.ansiBrightGreen": "#42BC7F",
 		"terminal.ansiBrightBlue": "#3E83D1",
 		"terminal.ansiBrightCyan": "#27D3CB",
 		"terminal.ansiBrightMagenta": "#E54286",
-		"terminal.ansiBrightYellow": "#FFE091",
+		"terminal.ansiBrightYellow": "#FFF890",
 	},
 
 
@@ -214,7 +214,7 @@
 				"variable.language.this"
 			],
 			"settings": {
-				"foreground": "#FFE091"
+				"foreground": "#FFF890"
 			}
 		},
 		{
@@ -393,13 +393,13 @@
 		{
 			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#FFE091"
+				"foreground": "#FFF890"
 			}
 		},
 		{
 			"scope": "token.error-token",
 			"settings": {
-				"foreground": "#EF3D2E"
+				"foreground": "#F04B3C"
 			}
 		},
 		{
