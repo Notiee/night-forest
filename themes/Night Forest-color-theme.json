@@ -12,6 +12,7 @@
 
 		// GIT
 		"gitDecoration.untrackedResourceForeground": "#C1D9F2",
+		"gitDecoration.modifiedResourceForeground": "#3E83D1",
 
 		// # CHROME
 		"selection.background": "#686868bb",
@@ -290,7 +291,7 @@
 				// Quickfixes for symbols getting operator colors
 				// "keyword.operator.namespace.rust",
 				// "keyword.operator.key-value.rust",
-				// "keyword.operator.access",
+				// "keyword.operator.access.dot.rust",
 				// "keyword.operator.type.annotation.ts",
 			],
 			"settings": {
