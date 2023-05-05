@@ -38,5 +38,6 @@ The following languages has been tested and confirmed to be working as intended:
 * `Markdown`
 * `PowerShell`
 * `VimL`
+* `.ini`
 
 ***Hope you enjoy <3***

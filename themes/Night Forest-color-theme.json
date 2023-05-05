@@ -255,6 +255,7 @@
 				"string.url",
 
 				// Lang overrides
+				"punctuation.separator.key-value",
 				"punctuation.separator.scope-resolution.cpp"
 			],
 			"settings": {
@@ -320,6 +321,7 @@
 				// "punctuation.terminator",
 
 				// Lang overrides
+				"punctuation.definition.entity.ini",
 				"punctuation.separator.java",
 				"punctuation.semi.rust",
 				"support.function.library.lua",
@@ -333,9 +335,11 @@
 			"scope": [
 				"markup.inline",
 				"markup.quote",
-				"source.ini",
 				"string.other.link.description",
-				"string"
+				"string",
+
+				// Lang overrides
+				"source.ini"
 			],
 			"settings": {
 				"foreground": "#2ebb74"
