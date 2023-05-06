@@ -214,7 +214,7 @@
 				"support.type",
 				"variable.language.this",
 
-				// Lang. specific overrides
+				// # Lang. specific overrides
 				"meta.use.rust",
 				"meta.import.rust",
 				"entity.name.module.rust",
@@ -241,7 +241,7 @@
 				"variable.other.enummember",
 				"string.interpolated.expression",
 
-				// Lang overrides
+				// # Lang overrides
 				"entity.name.section.group-title.ini",
 				"keyword.other.definition.ini",
 			],
@@ -258,7 +258,7 @@
 				"string.regexp",
 				"string.url",
 
-				// Lang overrides
+				// # Lang overrides
 				"punctuation.separator.scope-resolution.cpp"
 			],
 			"settings": {
@@ -299,13 +299,8 @@
 				"entity.other.attribute-name",
 				"keyword.operator.quantifier.regexp",
 
+				// # Quickfixes for symbols getting operator colors
 				// "entity.name.variable.parameter.cs",
-
-				// Quickfixes for symbols getting operator colors
-				// "keyword.operator.type.annotation.ts",
-				// "keyword.operator.namespace.rust",
-				// "keyword.operator.key-value.rust",
-				// "keyword.operator.access.dot.rust",
 			],
 			"settings": {
 				"foreground": "#EEEEEE"
@@ -329,6 +324,12 @@
 				"punctuation.separator.java",
 				"punctuation.semi.rust",
 				"support.function.library.lua",
+
+				// # Quickfixes for symbols getting operator colors
+				// "keyword.operator.type.annotation.ts",
+				// "keyword.operator.namespace.rust",
+				// "keyword.operator.key-value.rust",
+				// "keyword.operator.access.dot.rust",
 			],
 			"settings": {
 				"foreground": "#EEEEEE"
@@ -342,7 +343,7 @@
 				"string.other.link.description",
 				"string",
 
-				// Lang overrides
+				// # Lang overrides
 				"source.ini"
 			],
 			"settings": {
