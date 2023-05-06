@@ -242,6 +242,8 @@
 				"string.interpolated.expression",
 
 				// Lang overrides
+				"entity.name.section.group-title.ini",
+				"keyword.other.definition.ini",
 			],
 			"settings": {
 				"foreground": "#FF6675"
@@ -257,7 +259,6 @@
 				"string.url",
 
 				// Lang overrides
-				"punctuation.separator.key-value",
 				"punctuation.separator.scope-resolution.cpp"
 			],
 			"settings": {
@@ -324,6 +325,7 @@
 
 				// Lang overrides
 				"punctuation.definition.entity.ini",
+				"punctuation.separator.key-value.ini",
 				"punctuation.separator.java",
 				"punctuation.semi.rust",
 				"support.function.library.lua",
