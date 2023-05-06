@@ -215,8 +215,10 @@
 				"variable.language.this",
 
 				// Lang. specific overrides
-				"entity.name.namespace.rust",
 				"meta.use.rust",
+				"meta.import.rust",
+				"entity.name.module.rust",
+				"entity.name.namespace.rust",
 			],
 			"settings": {
 				"foreground": "#FFF890"
