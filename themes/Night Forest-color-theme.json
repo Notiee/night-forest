@@ -40,7 +40,7 @@
 
 		// Status bar
 		"statusBar.background": "#000000",
-		"statusBar.noFolderBackground": "#14665B",
+		"statusBar.noFolderBackground": "#000000",
 		"statusBar.debuggingBackground": "#6b6497",
 		"statusBar.focusBorder": "#00000000",
 		"statusBarItem.errorBackground": "#F04B3C",
