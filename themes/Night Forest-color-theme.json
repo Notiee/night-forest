@@ -344,7 +344,7 @@
 				"string",
 
 				// # Lang overrides
-				"source.ini"
+				//"source.ini"
 			],
 			"settings": {
 				"foreground": "#2ebb74"
