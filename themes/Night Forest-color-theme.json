@@ -218,7 +218,10 @@
 				"meta.use.rust",
 				"meta.import.rust",
 				"entity.name.module.rust",
-				"entity.name.namespace.rust",
+				// "entity.name.namespace.rust",
+				// "entity.name.namespace.cpp",
+				"entity.name.scope-resolution.cpp",
+				"entity.name.namespace",
 			],
 			"settings": {
 				"foreground": "#FFF890"
@@ -259,7 +262,8 @@
 				"string.url",
 
 				// # Lang overrides
-				"punctuation.separator.scope-resolution.cpp"
+				"punctuation.separator.scope-resolution", //C++
+
 			],
 			"settings": {
 				"foreground": "#27D3CB"
@@ -273,7 +277,10 @@
 				"meta.function-call.generic",
 				"string.other.link",
 				"support.function",
-				"variable.language.super"
+				"variable.language.super",
+
+				// # U know the deal by now
+				"entity.name.scope-resolution.function.call", // C++
 			],
 			"settings": {
 				"foreground": "#8CDAFF"
@@ -324,6 +331,7 @@
 				"punctuation.separator.java",
 				"punctuation.semi.rust",
 				"support.function.library.lua",
+				// "punctuation.definition.directive.cpp",
 
 				// # Quickfixes for symbols getting operator colors
 				// "keyword.operator.type.annotation.ts",
