@@ -23,6 +23,7 @@
 		"titleBar.activeForeground": "#EEEEEE",
 		"titleBar.inactiveBackground": "#000000",
 		// "titleBar.inactiveForeground": "#7b7b7b",
+		// "menubar.selectionBorder": "#7b7b7b",
 		"menubar.selectionBackground": "#14665B8a",
 		"banner.background": "#14665B",
 
