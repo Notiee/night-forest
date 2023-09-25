@@ -231,7 +231,8 @@
 				"entity.name.namespace",
 			],
 			"settings": {
-				"foreground": "#FFF890"
+				// "foreground": "#FFF890"
+				"foreground": "#ebe484"
 			}
 		},
 		{
@@ -358,6 +359,7 @@
 				//"source.ini"
 			],
 			"settings": {
+				// "foreground": "#2ebb74"
 				"foreground": "#2ebb74"
 			}
 		},
@@ -367,7 +369,8 @@
 				"comment"
 			],
 			"settings": {
-				"foreground": "#00AAA5"
+				// "foreground": "#00AAA5"
+				"foreground": "#0e8f8b"
 			}
 		},
 		{
