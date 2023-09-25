@@ -5,8 +5,8 @@
 		// "foreground": "#FFFFFF",
 		"errorForeground": "#F04B3C",
 		"icon.foreground": "#7b7b7b",
-		"textLink.foreground": "#27D3CB",
-		"textLink.activeForeground": "#27D3CB",
+		"textLink.foreground": "#27E0D7",
+		"textLink.activeForeground": "#27E0D7",
 		"focusBorder": "#00000000",
 		"sash.hoverBorder": "#2ba39d",
 
@@ -115,14 +115,14 @@
 		// "quickInput.foreground": "#FFFFFF",
 		// "quickInputList.focusForeground": "#FFFFFF",
 		// "quickInputList.focusIconForeground": "#FFFFFF",
-		"pickerGroup.foreground": "#27D3CB",
+		"pickerGroup.foreground": "#27E0D7",
 		"widget.border": "#7b7b7b",
 		"editorWidget.background": "#000000",
 		"editorWidget.border": "#7b7b7b",
-		"editorSuggestWidget.focusHighlightForeground": "#27D3CB",
-		"editorSuggestWidget.highlightForeground": "#27D3CB",
-		"list.focusHighlightForeground": "#27D3CB",
-		"list.highlightForeground": "#27D3CB",
+		"editorSuggestWidget.focusHighlightForeground": "#27E0D7",
+		"editorSuggestWidget.highlightForeground": "#27E0D7",
+		"list.focusHighlightForeground": "#27E0D7",
+		"list.highlightForeground": "#27E0D7",
 
 		// Minimap
 		"minimap.selectionHighlight": "#7a7a7a",
@@ -143,11 +143,11 @@
 		"editor.background": "#000000",
 		"editor.foreground": "#EEEEEE",
 
-		"editorCursor.foreground": "#27D3CB",
+		"editorCursor.foreground": "#27E0D7",
 		"editor.lineHighlightBackground": "#000000",
 
 		"editorLineNumber.foreground": "#7b7b7b",
-		"editorLineNumber.activeForeground": "#27D3CB",
+		"editorLineNumber.activeForeground": "#27E0D7",
 
 		"editor.selectionBackground": "#686868bb",
 		"editor.selectionHighlightBackground": "#FFF89062",
@@ -162,8 +162,8 @@
 		"editor.findMatchBackground": "#FFF890b7",
 		"editor.findMatchHighlightBackground": "#FFF89054",
 
-		"editorIndentGuide.background": "#252525",
-		"editorIndentGuide.activeBackground": "#AAAAAA",
+		"editorIndentGuide.background1": "#252525",
+		"editorIndentGuide.activeBackground1": "#AAAAAA",
 
 		"editorInfo.foreground": "#3E83D1",
 		"editorError.foreground": "#F04B3C",
@@ -179,14 +179,14 @@
 		"terminal.ansiRed": "#F04B3C",
 		"terminal.ansiGreen": "#14665B",
 		"terminal.ansiBlue": "#3E83D1",
-		"terminal.ansiCyan": "#27D3CB",
+		"terminal.ansiCyan": "#27E0D7",
 		"terminal.ansiMagenta": "#E54286",
 		"terminal.ansiYellow": "#FFF890",
 		"terminal.ansiBrightBlack": "#000000",
 		"terminal.ansiBrightRed": "#F04B3C",
 		"terminal.ansiBrightGreen": "#42BC7F",
 		"terminal.ansiBrightBlue": "#3E83D1",
-		"terminal.ansiBrightCyan": "#27D3CB",
+		"terminal.ansiBrightCyan": "#27E0D7",
 		"terminal.ansiBrightMagenta": "#E54286",
 		"terminal.ansiBrightYellow": "#FFF890",
 	},
@@ -213,7 +213,7 @@
 				"support.class",
 				"support.other.namespace",
 				"support.type",
-				"variable.language.this",
+				// "variable.language.this",
 
 				// # Lang. specific overrides
 				"meta.use.rust",
@@ -254,20 +254,15 @@
 			}
 		},
 		{
-			"name": "Operators, Escape chars, links",
+			"name": "Escape chars, regex, links",
 			"scope": [
 				"constant.character.escape",
-				"keyword.operator",
 				"markup.underline.link",
 				"string.regexp",
 				"string.url",
-
-				// # Lang overrides
-				"punctuation.separator.scope-resolution", //C++
-
 			],
 			"settings": {
-				"foreground": "#27D3CB"
+				"foreground": "#e0af27"
 			}
 		},
 		{
@@ -284,7 +279,7 @@
 				"entity.name.scope-resolution.function.call", // C++
 			],
 			"settings": {
-				"foreground": "#8CDAFF"
+				"foreground": "#3EC3FF"
 			}
 		},
 		{
@@ -332,7 +327,8 @@
 				"punctuation.separator.java",
 				"punctuation.semi.rust",
 				"support.function.library.lua",
-				// "punctuation.definition.directive.cpp",
+				// C/C++
+				// "punctuation.definition.directive",
 
 				// # Quickfixes for symbols getting operator colors
 				// "keyword.operator.type.annotation.ts",
@@ -369,6 +365,19 @@
 			}
 		},
 		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator",
+
+				// # Lang overrides
+				//"punctuation.separator.scope-resolution", //C++
+
+			],
+			"settings": {
+				"foreground": "#27E0D7"
+			}
+		},
+		{
 			"name": "Keywords, Operators",
 			"scope": [
 				"keyword.operator.new",
@@ -391,8 +400,9 @@
 			"scope": [
 				"markup.bold",
 				"constant",
-				// "support.constant",
+				"support.constant",
 				// "variable.other.constant",
+				"variable.language",
 
 			],
 			"settings": {
