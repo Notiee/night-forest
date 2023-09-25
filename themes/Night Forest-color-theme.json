@@ -416,6 +416,16 @@
 			}
 		},
 		{
+			"name": "Invalids (c/c++ specific) -maybe delete if unintended side-effects",
+			"scope": [
+				// Overrides
+				"invalid"
+			],
+			"settings": {
+				"foreground": "#ff96d0"
+			}
+		},
+		{
 			"name": "Quotes",
 			"scope": [
 				"markup.quote",
