@@ -106,10 +106,10 @@
 		"input.border": "#7b7b7b",
 		"dropdown.background": "#000000",
 		"dropdown.border": "#7b7b7b",
-		// "keybindingLabel.foreground": "#FFFFFF",
+		"keybindingLabel.foreground": "#EEEEEE",
 		"keybindingLabel.background": "#14665B",
-		"keybindingLabel.border": "#000000",
-		"keybindingLabel.bottomBorder": "#000000",
+		"keybindingLabel.border": "#14665B",
+		"keybindingLabel.bottomBorder": "#14665B",
 
 		// Widgets
 		"quickInput.background": "#000000",
