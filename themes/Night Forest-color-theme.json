@@ -6,7 +6,7 @@
 		"errorForeground": "#F04B3C",
 		"icon.foreground": "#7b7b7b",
 		"textLink.foreground": "#27E0D7",
-		"textLink.activeForeground": "#27E0D7",
+		"textLink.activeForeground": "#2ba39d",
 		"focusBorder": "#00000000",
 		"sash.hoverBorder": "#2ba39d",
 
@@ -83,6 +83,7 @@
 		"tab.inactiveForeground": "#7b7b7b",
 		"tab.inactiveBackground": "#000000",
 		"tab.hoverForeground": "#EEEEEE",
+		"tab.hoverBorder": "#14665B",
 		// "tab.hoverBackground": "#14665B8a",
 
 		// Panels
@@ -172,6 +173,11 @@
 		// # SETTINGS
 		"settings.modifiedItemIndicator": "#2ba39d",
 		"settings.settingsHeaderHoverForeground": "#ffffff",
+
+		// Welcome page
+		"welcomePage.tileHoverBackground": "#27e0d75b",
+
+
 
 		// # TERMINAL
 		"terminal.ansiBlack": "#000000",
@@ -378,7 +384,7 @@
 			}
 		},
 		{
-			"name": "Keywords, Operators",
+			"name": "Keywords",
 			"scope": [
 				"keyword.operator.new",
 				"keyword",
