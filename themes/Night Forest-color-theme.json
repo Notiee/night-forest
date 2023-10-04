@@ -177,6 +177,13 @@
 		// Welcome page
 		"welcomePage.tileHoverBackground": "#27e0d75b",
 
+		// Peekview
+		"peekViewTitle.background": "#000000",
+		"peekViewEditor.background": "#000000",
+		"peekViewResult.background": "#000000",
+		"peekView.border": "#14665B",
+
+
 
 
 		// # TERMINAL
