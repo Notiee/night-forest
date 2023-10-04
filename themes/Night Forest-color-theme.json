@@ -77,14 +77,16 @@
 
 		// Tabs
 		"editorGroupHeader.tabsBackground": "#000000",
+		"editorGroupHeader.tabsBorder": "#111111",
 		"tab.border": "#000000",
-		"tab.activeBackground": "#14665B",
+		// "tab.activeBackground": "#14665B",
+		"tab.activeBorder": "#14665B",
 		"tab.activeForeground": "#EEEEEE",
 		"tab.inactiveForeground": "#7b7b7b",
 		"tab.inactiveBackground": "#000000",
 		"tab.hoverForeground": "#EEEEEE",
-		"tab.hoverBorder": "#14665B",
-		// "tab.hoverBackground": "#14665B8a",
+		// "tab.hoverBorder": "#14665B",
+		"tab.hoverBackground": "#14665B8a",
 
 		// Panels
 		"panel.background": "#000000",
@@ -124,6 +126,7 @@
 		"editorSuggestWidget.highlightForeground": "#27E0D7",
 		"list.focusHighlightForeground": "#27E0D7",
 		"list.highlightForeground": "#27E0D7",
+		"textCodeBlock.background": "#222222",
 
 		// Minimap
 		"minimap.selectionHighlight": "#7a7a7a",
