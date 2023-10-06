@@ -191,7 +191,7 @@
 
 
 		// # TERMINAL
-		"terminal.ansiBlack": "#000000",
+		"terminal.ansiBlack": "#333333",
 		"terminal.ansiWhite": "#EEEEEE",
 		"terminal.ansiRed": "#F04B3C",
 		"terminal.ansiGreen": "#14665B",
@@ -199,7 +199,8 @@
 		"terminal.ansiCyan": "#27E0D7",
 		"terminal.ansiMagenta": "#E54286",
 		"terminal.ansiYellow": "#FFF890",
-		"terminal.ansiBrightBlack": "#000000",
+		"terminal.ansiBrightBlack": "#333333",
+		"terminal.ansiBrightWhite": "#EEEEEE",
 		"terminal.ansiBrightRed": "#F04B3C",
 		"terminal.ansiBrightGreen": "#42BC7F",
 		"terminal.ansiBrightBlue": "#3E83D1",
