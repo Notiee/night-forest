@@ -485,6 +485,7 @@
 			}
 		}
 	],
-	"semanticHighlighting": false,
+	"semanticHighlighting": true,
+	// LATER TODO: Check semantic tokens
 	"semanticTokenColors": {}
 }
