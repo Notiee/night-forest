@@ -237,7 +237,7 @@
 				// "variable.language.this",
 
 				// # Lang. specific overrides
-				"meta.use.rust",
+				// "meta.use.rust",
 				"meta.import.rust",
 				"entity.name.module.rust",
 				// "entity.name.namespace.rust",
