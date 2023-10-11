@@ -37,6 +37,8 @@
 		// Sidebar
 		"sideBar.background": "#000000",
 		"sideBarSectionHeader.background": "#000000",
+		"sideBarSectionHeader.border": "#111111",
+		// "editorGroupHeader.border": "#111111",
 		"sideBar.border": "#111111",
 
 		// Status bar
