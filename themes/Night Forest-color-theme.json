@@ -217,6 +217,7 @@
 		// Extension overrides
 		// ErrorLens
 		"errorLens.warningMessageBackground": "#fff89020",
+		"errorLens.warningBackground": "#fff89020",
 		"errorLens.warningForeground": "#FFF190",
 		"errorLens.statusBarWarningForeground": "#FFF890",
 	},
