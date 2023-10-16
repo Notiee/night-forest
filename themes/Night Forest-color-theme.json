@@ -210,6 +210,15 @@
 		"terminal.ansiBrightCyan": "#27E0D7",
 		"terminal.ansiBrightMagenta": "#E54286",
 		"terminal.ansiBrightYellow": "#FFF890",
+
+
+
+
+		// Extension overrides
+		// ErrorLens
+		"errorLens.warningMessageBackground": "#fff89020",
+		"errorLens.warningForeground": "#FFF190",
+		"errorLens.statusBarWarningForeground": "#FFF890",
 	},
 
 
