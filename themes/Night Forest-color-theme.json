@@ -133,7 +133,6 @@
 
 		// Minimap
 		"minimap.selectionHighlight": "#7a7a7a",
-		// "minimapSlider.activeBackground": "#14665B8a",
 		"minimapSlider.activeBackground": "#ffffff2f",
 		"minimap.errorHighlight": "#F04B3C",
 		"minimap.warningHighlight": "#FFF890",
