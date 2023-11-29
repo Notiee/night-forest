@@ -393,8 +393,8 @@
 				"comment"
 			],
 			"settings": {
-				// "foreground": "#00AAA5"
-				"foreground": "#0e8f8b"
+				"foreground": "#00AAA5"
+				// "foreground": "#0e8f8b"
 			}
 		},
 		{
