@@ -389,8 +389,9 @@
 				"punctuation.definition.entity.ini",
 				"punctuation.separator.key-value.ini",
 				"punctuation.separator.java",
-				"punctuation.semi.rust",
+				// "punctuation.semi.rust",
 				"support.function.library.lua",
+
 				// C/C++
 				// "punctuation.definition.directive",
 
@@ -416,7 +417,6 @@
 				//"source.ini"
 			],
 			"settings": {
-				// "foreground": "#2ebb74"
 				"foreground": "#2ebb74"
 			}
 		},
@@ -436,7 +436,10 @@
 				"keyword.operator",
 
 				// # Lang overrides
-				//"punctuation.separator.scope-resolution", //C++
+				//C++
+				// "punctuation.separator.scope-resolution",
+				// "punctuation.separator.pointer-access",
+				// "punctuation.separator.dot-access",
 
 			],
 			"settings": {
