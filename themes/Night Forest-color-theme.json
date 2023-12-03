@@ -214,11 +214,44 @@
 
 
 		// Extension overrides
+
 		// ErrorLens
-		"errorLens.warningMessageBackground": "#fff89020",
-		"errorLens.warningBackground": "#fff89020",
+		// "errorLens.statusBarIconErrorForeground": "#f16458",
+		// "errorLens.statusBarErrorForeground": "#f16458",
+		// "errorLens.errorMessageBackground": "#00000000",
+		// "errorLens.errorRangeBackground": "#f1645820",
+		// "errorLens.errorBackground": "#f1645820",
+		// "errorLens.errorForeground": "#f16458",
+		"errorLens.statusBarIconErrorForeground": "#ee594c",
+		"errorLens.statusBarErrorForeground": "#ee594c",
+		"errorLens.errorMessageBackground": "#00000000",
+		"errorLens.errorRangeBackground": "#ee594c20",
+		"errorLens.errorBackground": "#ee594c20",
+		"errorLens.errorForeground": "#ee594c",
+
+		"errorLens.statusBarIconWarningForeground": "#FFF190",
+		"errorLens.statusBarWarningForeground": "#FFF190",
+		"errorLens.warningMessageBackground": "#00000000",
+		"errorLens.warningRangeBackground": "#FFF19020",
+		"errorLens.warningBackground": "#FFF19020",
 		"errorLens.warningForeground": "#FFF190",
-		"errorLens.statusBarWarningForeground": "#FFF890",
+
+		"errorLens.statusBarInfoForeground": "#3E83D1",
+		"errorLens.infoMessageBackground": "#00000000",
+		"errorLens.infoRangeBackground": "#3E83D120",
+		"errorLens.infoBackground": "#3E83D120",
+		"errorLens.infoForeground": "#3E83D1",
+
+		// "errorLens.statusBarHintForeground": "#C1D9F2",
+		// "errorLens.hintMessageBackground": "#00000000",
+		// "errorLens.hintRangeBackground": "#C1D9F220",
+		// "errorLens.hintBackground": "#C1D9F220",
+		// "errorLens.hintForeground": "#C1D9F2",
+		"errorLens.statusBarHintForeground": "#acbbca",
+		"errorLens.hintMessageBackground": "#00000000",
+		"errorLens.hintRangeBackground": "#acbbca20",
+		"errorLens.hintBackground": "#acbbca20",
+		"errorLens.hintForeground": "#acbbca",
 	},
 
 
