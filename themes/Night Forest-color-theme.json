@@ -437,9 +437,9 @@
 
 				// # Lang overrides
 				//C++
-				// "punctuation.separator.scope-resolution",
-				// "punctuation.separator.pointer-access",
-				// "punctuation.separator.dot-access",
+				"punctuation.separator.scope-resolution",
+				"punctuation.separator.pointer-access",
+				"punctuation.separator.dot-access",
 
 			],
 			"settings": {
