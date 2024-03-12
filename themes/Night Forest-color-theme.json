@@ -440,6 +440,8 @@
 				"punctuation.separator.scope-resolution",
 				"punctuation.separator.pointer-access",
 				"punctuation.separator.dot-access",
+				//GD script
+				"punctuation.separator.annotation",
 
 			],
 			"settings": {
