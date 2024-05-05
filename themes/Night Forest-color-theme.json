@@ -2,7 +2,7 @@
 	"name": "Night Forest",
 	"colors": {
 		// # GENERAL
-		// "foreground": "#FFFFFF",
+		"foreground": "#CCCCCC",
 		"errorForeground": "#F04B3C",
 		"icon.foreground": "#7b7b7b",
 		"textLink.foreground": "#27E0D7",
@@ -18,12 +18,13 @@
 		"selection.background": "#686868bb",
 
 		// Top bar
-		"titleBar.border": "#000000",
+		"titleBar.border": "#1B1B1B",
 		"titleBar.activeBackground": "#000000",
-		"titleBar.activeForeground": "#EEEEEE",
+		// "titleBar.activeForeground": "#EEEEEE",
 		"titleBar.inactiveBackground": "#000000",
 		// "titleBar.inactiveForeground": "#7b7b7b",
 		// "menubar.selectionBorder": "#7b7b7b",
+		"menubar.selectionForeground": "#FFFFFF",
 		"menubar.selectionBackground": "#14665B8a",
 		"banner.background": "#14665B",
 
@@ -33,17 +34,18 @@
 		"activityBar.activeBorder": "#14665B",
 		"activityBar.activeBackground": "#14665B",
 		"activityBarBadge.background": "#2ba39d",
+		"activityBar.border": "#1B1B1B",
 
 		// Sidebar
 		"sideBar.background": "#000000",
 		"sideBarSectionHeader.background": "#000000",
-		"sideBarSectionHeader.border": "#111111",
-		// "editorGroupHeader.border": "#111111",
-		"sideBar.border": "#111111",
+		"sideBarSectionHeader.border": "#1B1B1B",
+		// "editorGroupHeader.border": "#1B1B1B",
+		"sideBar.border": "#1B1B1B",
 
 		// Status bar
 		"statusBar.background": "#000000",
-		"statusBar.border": "#111111",
+		"statusBar.border": "#1B1B1B",
 		"statusBar.noFolderBackground": "#000000",
 		"statusBar.debuggingBackground": "#6b6497",
 		"statusBar.focusBorder": "#00000000",
@@ -55,9 +57,9 @@
 		"statusBarItem.compactHoverBackground": "#14665B",
 
 
-		// Right click "menu"
+		// Menu (right click, titlebar button submenus etc..)
 		"menu.background": "#000000",
-		// "menu.foreground": "#FFFFFF",
+		"menu.foreground": "#CCCCCC",
 		"menu.border": "#7b7b7b",
 		"menu.separatorBackground": "#7b7b7b",
 		"menu.selectionBackground": "#14665B8a",
@@ -80,8 +82,10 @@
 
 		// Tabs
 		"editorGroupHeader.tabsBackground": "#000000",
-		"editorGroupHeader.tabsBorder": "#111111",
-		"tab.border": "#000000",
+		"editorGroupHeader.tabsBorder": "#1B1B1B",
+		"editorGroupHeader.border": "#1B1B1B",
+
+		"tab.border": "#1B1B1B",
 		// "tab.activeBackground": "#14665B",
 		"tab.activeBorder": "#14665B",
 		"tab.activeForeground": "#EEEEEE",
@@ -93,15 +97,17 @@
 
 		// Panels
 		"panel.background": "#000000",
-		"panel.border": "#111111",
+		"panel.border": "#1B1B1B",
 		// "panelTitle.inactiveForeground": "#7b7b7b",
 		// "panelTitle.activeForeground": "#FFFFFF",
 
 		// Lists
-		// "list.activeSelectionForeground": "#EEEEEE",
-		"list.activeSelectionBackground": "#14665B8a",
-		"list.inactiveSelectionBackground": "#14665B8a",
+		"list.hoverForeground": "#EEEEEE",
 		"list.hoverBackground": "#14665b56",
+		"list.activeSelectionForeground": "#FFFFFF",
+		"list.activeSelectionBackground": "#14665B8a",
+		"list.inactiveSelectionForeground": "#EEEEEE",
+		"list.inactiveSelectionBackground": "#14665B8a",
 		"list.warningForeground": "#FFF890",
 		"list.errorForeground": "#F04B3C",
 		"tree.indentGuidesStroke": "#AAAAAA",
@@ -178,7 +184,7 @@
 
 		// # SETTINGS
 		"settings.modifiedItemIndicator": "#2ba39d",
-		"settings.settingsHeaderHoverForeground": "#ffffff",
+		"settings.settingsHeaderHoverForeground": "#FFFFFF",
 
 		// Welcome page
 		"welcomePage.tileHoverBackground": "#27e0d75b",
