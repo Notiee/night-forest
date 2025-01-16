@@ -167,7 +167,7 @@
 		// "editorStickyScroll.background":"#ff0000",
 		"editorStickyScroll.border": "#1B1B1B",
 		// "editorStickyScrollHover.background": "#2a2d2e",
-		"editorStickyScrollHover.background": "#14665B8a",
+		"editorStickyScrollHover.background": "#14665b56",
 
 
 		"editor.selectionBackground": "#686868bb",
