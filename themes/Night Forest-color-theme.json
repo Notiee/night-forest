@@ -138,8 +138,10 @@
 		"textCodeBlock.background": "#222222",
 
 		// Minimap
-		"minimap.selectionHighlight": "#7a7a7a",
-		"minimapSlider.activeBackground": "#ffffff2f",
+		"minimap.selectionHighlight": "#7a7a7a69",
+		"minimapSlider.background": "#14665b36",
+		"minimapSlider.hoverBackground": "#14665b56",
+		"minimapSlider.activeBackground": "#14665B8a",
 		"minimap.errorHighlight": "#F04B3C",
 		"minimap.warningHighlight": "#FFF890",
 
@@ -162,6 +164,12 @@
 		"editorLineNumber.foreground": "#7b7b7b",
 		"editorLineNumber.activeForeground": "#27E0D7",
 
+		// "editorStickyScroll.background":"#ff0000",
+		"editorStickyScroll.border": "#1B1B1B",
+		// "editorStickyScrollHover.background": "#2a2d2e",
+		"editorStickyScrollHover.background": "#14665B8a",
+
+
 		"editor.selectionBackground": "#686868bb",
 		"editor.selectionHighlightBackground": "#FFF89062",
 
@@ -181,6 +189,8 @@
 		"editorInfo.foreground": "#3E83D1",
 		"editorError.foreground": "#F04B3C",
 		"editorWarning.foreground": "#FFF890",
+
+
 
 		// # SETTINGS
 		"settings.modifiedItemIndicator": "#2ba39d",
@@ -424,6 +434,7 @@
 			],
 			"settings": {
 				"foreground": "#2ebb74"
+				// "foreground": "#2ebb91"
 			}
 		},
 		{
