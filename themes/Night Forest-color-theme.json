@@ -342,7 +342,8 @@
 				"string.url",
 			],
 			"settings": {
-				"foreground": "#e0af27"
+				// "foreground": "#e0af27"
+				"foreground": "#ffaef4"
 			}
 		},
 		{
