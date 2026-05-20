@@ -304,8 +304,8 @@
 				"entity.name.namespace",
 			],
 			"settings": {
-				// "foreground": "#FFF890"
-				"foreground": "#ebe484"
+				"foreground": "#FFF890",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -330,7 +330,8 @@
 				"keyword.other.definition.ini",
 			],
 			"settings": {
-				"foreground": "#FF6675"
+				// "foreground": "#FF6675"
+				"foreground": "#dd6e79"
 			}
 		},
 		{
@@ -360,7 +361,8 @@
 				"entity.name.scope-resolution.function.call", // C++
 			],
 			"settings": {
-				"foreground": "#3EC3FF"
+				// "foreground": "#3EC3FF"
+				"foreground": "#55C9FF"
 			}
 		},
 		{
@@ -434,19 +436,25 @@
 				//"source.ini"
 			],
 			"settings": {
-				"foreground": "#2ebb74"
-				// "foreground": "#2ebb91"
+				// "foreground": "#2ebb91",
+				"foreground": "#2EBB74"
+
 			}
 		},
 		{
 			"name": "Comments",
 			"scope": [
-				"comment"
+				"comment",
+				"comment.line",
+				"comment.block",
 			],
 			"settings": {
-				// "foreground": "#00AAA5"
-				// "foreground": "#0e8f8b"
-				"foreground": "#ce8f30"
+				// "foreground": "#00AAA5",
+				// "foreground": "#0e8f8b",
+				// "foreground": "#088862",
+				// "foreground": "#ce8f30",
+				"foreground": "#7a7a7a",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -464,7 +472,8 @@
 
 			],
 			"settings": {
-				"foreground": "#27E0D7"
+				// "foreground": "#27E0D7"
+				"foreground": "#00FFF2"
 			}
 		},
 		{
@@ -472,6 +481,7 @@
 			"scope": [
 				"keyword.operator.new",
 				"keyword",
+				"keyword.other",
 				"markup.italic",
 				"punctuation.definition.block.tag",
 				"storage",
@@ -479,10 +489,16 @@
 				"storage.type",
 
 				// Lang overrides
+				// Odin
+				"keyword.control",
+				"storage.type.odin"
+
 
 			],
 			"settings": {
-				"foreground": "#cba0ff"
+				// "foreground": "#cba0ff",
+				"foreground": "#CFABFC",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -550,7 +566,7 @@
 		{
 			"scope": "token.debug-token",
 			"settings": {
-				"foreground": "#cba0ff"
+				"foreground": "#CFABFC"
 			}
 		}
 	],
