@@ -302,6 +302,8 @@
 				// "entity.name.namespace.cpp",
 				"entity.name.scope-resolution.cpp",
 				"entity.name.namespace",
+				"entity.other.attribute-name.odin",
+
 			],
 			"settings": {
 				"foreground": "#FFF890",
