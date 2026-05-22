@@ -302,8 +302,6 @@
 				// "entity.name.namespace.cpp",
 				"entity.name.scope-resolution.cpp",
 				"entity.name.namespace",
-				"entity.other.attribute-name.odin",
-
 			],
 			"settings": {
 				"foreground": "#FFF890",
@@ -330,10 +328,14 @@
 				// # Lang overrides
 				"entity.name.section.group-title.ini",
 				"keyword.other.definition.ini",
+				"entity.other.attribute-name.odin",
 			],
 			"settings": {
-				// "foreground": "#FF6675"
-				"foreground": "#dd6e79"
+				// "foreground": "#FF6675",
+				// "foreground": "#dd6e79",
+				// "foreground": "#ffbb00",
+				"foreground": "#eeb824",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -346,7 +348,8 @@
 			],
 			"settings": {
 				// "foreground": "#e0af27"
-				"foreground": "#ffaef4"
+				"foreground": "#ffaef4",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -364,7 +367,8 @@
 			],
 			"settings": {
 				// "foreground": "#3EC3FF"
-				"foreground": "#55C9FF"
+				"foreground": "#55C9FF",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -377,7 +381,8 @@
 				"support.type.property-name.css",
 			],
 			"settings": {
-				"foreground": "#EEEEEE"
+				"foreground": "#EEEEEE",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -391,7 +396,8 @@
 				// "entity.name.variable.parameter.cs",
 			],
 			"settings": {
-				"foreground": "#EEEEEE"
+				"foreground": "#EEEEEE",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -423,7 +429,8 @@
 				// "keyword.operator.access.dot.rust",
 			],
 			"settings": {
-				"foreground": "#EEEEEE"
+				"foreground": "#EEEEEE",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -439,8 +446,8 @@
 			],
 			"settings": {
 				// "foreground": "#2ebb91",
-				"foreground": "#2EBB74"
-
+				"foreground": "#2EBB74",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -475,7 +482,9 @@
 			],
 			"settings": {
 				// "foreground": "#27E0D7"
-				"foreground": "#00FFF2"
+				// "foreground": "#00FFF2",
+				"foreground": "#00EEEE",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -514,7 +523,8 @@
 
 			],
 			"settings": {
-				"foreground": "#E54286"
+				"foreground": "#E54286",
+				"fontStyle": ""
 			}
 		},
 		{
