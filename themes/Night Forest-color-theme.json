@@ -509,7 +509,7 @@
 				"markup.bold",
 				"constant",
 				"support.constant",
-				// "variable.other.constant",
+				"variable.other.constant",
 				"variable.language",
 
 			],
